@@ -29,8 +29,6 @@ class App extends Component {
                     <Menu />
 
                     <div className="container">
-
-
                         <Switch>
 
                             {this.showContentMenus(routes)}

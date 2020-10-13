@@ -15,7 +15,8 @@ var products = (state = initialState, action) => {
     var {product, id} = action;
     switch (action.type) {
         case Types.FETCH_PRODUCT:
-            state = action.products
+            state = action.products;
+
             return [...state]
         case Types.DELETE_PRODUCT:
             
